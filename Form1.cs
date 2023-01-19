@@ -19,35 +19,39 @@ namespace msconfuck
         {
             InitializeComponent();
         }
-
+        
+        //"Selective Startup"
         private void PenisCheck_CheckedChanged(object sender, EventArgs e)
         {
             Penis1.Enabled = PenisCheck.Checked;
             Penis2.Enabled = PenisCheck.Checked;
         }
-
+        
+        //"Normal Startup"
         private void NormalButtonStartup_CheckedChanged(object sender, EventArgs e)
         {
             Penis1.Checked = true;
             Penis2.Checked = true;
         }
-
+        
+        //"Diagnostic Startup"
         private void DiagButtonPen_CheckedChanged(object sender, EventArgs e)
         {
             Penis1.Checked = false;
             Penis2.Checked = false;
         }
-
+        
+        //"Help" button
         private void HelpMyPenisBurns_Click(object sender, EventArgs e)
         {
             Process.Start("https://go.microsoft.com/fwlink/?LinkId=517009");
         }
-
+        
+        //cancel and OK buttons respectively
         private void CancelMyProstateExam_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
         private void AlrightDocMyPenisIsFineThanks_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -118,7 +122,8 @@ namespace msconfuck
 
             Add_Services();
         }
-
+        
+        //"Safe Boot" checkbox
         private void SafeBootMan_CheckedChanged(object sender, EventArgs e)
         {
             Lol1.Enabled = SafeBootMan.Checked;
@@ -126,12 +131,14 @@ namespace msconfuck
             Lol3.Enabled = SafeBootMan.Checked;
             Lol4.Enabled = SafeBootMan.Checked;
         }
-
+        
+        //Link on the "Startup" tab
         private void OpenMeUpDaddyo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("taskmgr");
         }
-
+        
+        //"Advanced Options" in "Boot" tab
         private void ShowMeMoreBootsPapa_Click(object sender, EventArgs e)
         {
             using (AdvancedBootBoy b = new AdvancedBootBoy()) b.ShowDialog();
@@ -191,7 +198,8 @@ namespace msconfuck
             if (HideMicroServices.Checked) Services.Items.Clear();
             else Add_Services();
         }
-
+        
+        //"Apply" button
         private void ApplyMyPenisOintment_MouseEnter(object sender, EventArgs e)
         {
             ApplyMyPenisOintment.Enabled = false;
