@@ -13,3 +13,5 @@ Here, you'll find an entire rewrite of the msconfig.exe binary (in C#.NET). It's
 Hopefully you like it. *crosses fingers*
 
 Good luck; and hopefully this makes your scambaiting just a *tad* bit more enjoyable ;)
+
+(This goes very well with the [scambait toolkit](https://github.com/ConnorBaxter/ScambaitToolkit))
