@@ -10,7 +10,10 @@ Here, you'll find an entire rewrite of the msconfig.exe binary (in C#.NET). It's
 * The "apply" button constantly being visible as if to signal new changes to be applied, but will become completely greyed out once the person moves their mouse over it
 * Something, mostly completely identical to the original msconfig, so as to be as discrete as possible in order to ensure complete awkwardness from the now ruined plan of the scammer
 
-Hopefully you like it. *crosses fingers*
+
+### Hopefully you like it.
+
+*crosses fingers*
 
 Good luck; and hopefully this makes your scambaiting just a *tad* bit more enjoyable ;)
 
